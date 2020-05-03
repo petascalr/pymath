@@ -1,5 +1,8 @@
+# Interpolation methods (Linear, Bilinear, Lagrange, Barycentric)
+
+
 def lerp(left, right, factor):
-    return (right - left) * factor
+    return left + (right - left) * factor
 
 
 def linearInterp(vecX, vecY, valX):
